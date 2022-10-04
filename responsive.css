@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* responsive css */
+/* All Phones */ 
+@media only screen and (max-width: 600px) {
+	
+}
+
+
+
+
+
+
+
+/* Super Small Phone screen */ 
+@media only screen and (max-width: 260px) {
+	
+}
+/* Small Phone screen */ 
+@media only screen and (min-width: 261px) and (max-width: 340px) {
+	
+}
+/* Medium Phone screen */ 
+@media only screen and (min-width: 341px) and (max-width: 390px) {
+	
+}
+/* Large Phone screen */ 
+@media only screen and (min-width: 391px) and (max-width: 600px) {
+	
+}
+/* Tablet screen */ 
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+	
+}
+/* Average screen */ 
+@media only screen and (min-width: 801px) and (max-width: 1050px) {
+	
+}
+/* Full HD-2K screen */ 
+@media only screen and (min-width: 1050px) and (max-width: 1440px) {
+	
+}
+/* Larger Than 2K */ 
+@media only screen and (min-width: 1441px) {
+	
+}
+
+
+/* screen heights */
+
+/* Very small screen height */
+@media only screen and (max-height: 450px) {
+	
+}
+/* small screen height */
+@media only screen and (min-height: 451px) and (max-height: 900px) {
+	
+}
+/* regular screen height */
+@media only screen and (min-height: 900px) and (max-height: 1050px) {
+	
+}
+/* larger screen height */
+@media only screen and (min-height: 1051px){
+	
+}
+
+
+
+/* aspect ratios */
+@media only screen and (min-aspect-ratio: 92/163) and (min-width: 1080px){
+
+}
