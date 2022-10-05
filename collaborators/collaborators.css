@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+/* could use a program that automatically converts browser stuff etc to the desired effect and for older versions. */
+/* try use seperate stylesheets for seperate sheets */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+:root{
+    --primary: rgb(134, 98, 98);
+    --blue: rgb(15, 29, 109);
+}
+
+@keyframes movement{
+    0%{
+        background-position: 0em;
+    }
+    20%{
+        background-position: 15em -6em;
+    }
+    40%{
+        background-position: 19em 19em;
+    }
+    60%{
+        background-position: 7em -12em;
+    }
+    80%{
+        background-position: -4em 4em;
+    }
+    100%{
+        background-position: 0em;
+    }
+}
+#collab-callum{
+    box-shadow: 0 0 0 1vw rgb(15, 29, 109), 0 0 0 2vw rgb(15, 74, 109), 0 0 0 3vw rgb(15, 109, 93);
+    background: rgb(30, 8, 88) url(../assets/collaborators/CW_Background_pattern.png);
+    background-size: 2em;
+    padding: 5em 0;
+    animation: movement 15s infinite;
+    transition: all 0.5s ease-in-out 0.1s;
+}
+.uk-flag{
+    height: 5em;
+}
+#collab-callum:hover{
+    background-size: 1.2em;
+    background-position: 12em;
+}
+#collab-callum div {
+    color: rgb(189, 189, 189);
+}
+#collab-callum div img {
+    border-radius: 50%;
+    box-shadow: 0 0 0 1vw rgb(255, 0, 0), 0 0 0 2vw rgb(255, 255, 255), 0 0 0 3vw rgb(15, 29, 109);
+}
+#collab-callum div a {
+    letter-spacing: 4px;
+    transition: all 0.2s ease-in-out 0.1s;
+}
+#collab-callum div a:hover {
+    font-weight: 900;
+}
+.collab-image{
+    /* Calwheats - We will add responsive design to this at a later point. I could do everyone a lesson on it if they wish  */
+    width: 400px;
+    height: 400px;
+}
