@@ -11,13 +11,16 @@ section{
     align-items: center;
     padding: 1em;
     box-sizing: border-box;
+    cursor: pointer;
 }
 section a{
     width: 100%;
 }
 a div{
+    display: none;
     border-bottom: solid 2px var(--burgundy);
     padding: 5em 0;
+    transition: all 400ms;
 }
 a:last-of-type div{
     border: none;
@@ -30,5 +33,8 @@ section a:hover div{
     border-top: none;
 }
 h2{
+
+}
+h3{
     margin-left: 5em;
 }
