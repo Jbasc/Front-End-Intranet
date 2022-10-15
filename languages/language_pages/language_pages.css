@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+/* could use a program that automatically converts browser stuff etc to the desired effect and for older versions. */
+/* try use seperate stylesheets for seperate sheets */
+
+section{
+    border: solid var(--burgundy) 2px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+}
+section a{
+    width: 100%;
+}
+a div{
+    border-bottom: solid 2px var(--burgundy);
+    padding: 5em 0;
+}
+a:last-of-type div{
+    border: none;
+}
+a:first-of-type:hover div{
+    border-top: solid 2px var(--burgundy);
+}
+section a:hover div{
+    border: solid 2px var(--burgundy);
+    border-top: none;
+}
+h2{
+    margin-left: 5em;
+}
